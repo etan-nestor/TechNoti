@@ -87,20 +87,6 @@ const deleteRecord = async (req, res) => {
     }
 };
 
-// const searchRecords = async (req, res) => {
-//     try {
-//         const { date, typeCourse, typePari } = req.query;
-//         const query = {};
-//         if (date) query.date = date;
-//         if (typeCourse) query.typeCourse = typeCourse;
-//         if (typePari) query.typePari = typePari;
-
-//         const records = await Record.find(query);
-//         res.status(200).json(records);
-//     } catch (error) {
-//         res.status(400).json({ message: error.message });
-//     }
-// };
 
 
 const getRecentRecords = async (req, res) => {

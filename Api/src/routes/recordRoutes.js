@@ -7,7 +7,6 @@ const {
   getProgramRecords,
   updateRecord,
   deleteRecord,
-  searchRecords,
   getRecordById,
 } = require('../controllers/recordController');
 
@@ -21,6 +20,5 @@ router.get('/program', getProgramRecords);
 router.get('/:id', getRecordById);
 router.put('/:id', updateRecord);
 router.delete('/:id', deleteRecord);
-router.get('/search', searchRecords);
 
 module.exports = router;
