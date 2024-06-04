@@ -61,7 +61,7 @@ const EditRecord = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch(`http://localhost:5000/api/records/${id}`, {
+      const response = await fetch(`http://tech-noti.vercel.app/api/records/${id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json'

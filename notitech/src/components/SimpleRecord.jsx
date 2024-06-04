@@ -34,7 +34,7 @@ const SimpleRecord = () => {
         }
 
         try {
-            const response = await fetch('http://localhost:5000/api/records/simple', {
+            const response = await fetch('http://tech-noti.vercel.app/api/records/simple', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

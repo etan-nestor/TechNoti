@@ -33,7 +33,7 @@ const DetailRecord = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch('http://localhost:5000/api/records/detailed', {
+            const response = await fetch('http://tech-noti.vercel.app/records/detailed', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

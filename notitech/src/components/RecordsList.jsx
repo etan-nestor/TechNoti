@@ -10,7 +10,7 @@ const RecordsList = () => {
 
     const fetchRecords = async () => {
         try {
-            const response = await fetch("http://localhost:5000/api/records");
+            const response = await fetch("http://tech-noti.vercel.app/api/records");
             const records = await response.json();
             setData(records);
         } catch (error) {
