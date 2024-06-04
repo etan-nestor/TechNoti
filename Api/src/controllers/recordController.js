@@ -137,5 +137,4 @@ module.exports = {
     updateRecord,
     deleteRecord,
     getRecordById,
-    searchRecords,
 };
