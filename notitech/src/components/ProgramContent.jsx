@@ -9,7 +9,7 @@ const ProgramContent = () => {
 
     const fetchProgramRecords = async () => {
         try {
-            const response = await fetch('http://localhost:5000/api/records/program');
+            const response = await fetch('https://tech-noti.vercel.app/api/records/program');
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }

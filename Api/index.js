@@ -12,7 +12,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin:'http://localhost:5173',
+  origin:'https://tech-noti-bf.vercel.app/',
   credentials: true,
 }));
 

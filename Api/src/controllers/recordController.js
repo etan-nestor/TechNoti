@@ -120,7 +120,7 @@ const getProgramRecords = async (req, res) => {
                 $gte: yesterday,
                 $lte: tomorrow,
             }
-        }).sort({ date: 1 }); // Trier par date croissante
+        }).sort({ date: 1 });
 
         res.status(200).json(records);
     } catch (error) {
