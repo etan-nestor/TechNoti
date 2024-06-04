@@ -1,0 +1,12 @@
+.item{
+    padding: 10px 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: orangered;
+    cursor: pointer;
+}
+.item:hover,
+.item.active{
+    background: rgb(1, 198, 224);
+    color: rgb(12, 12, 12);
+}

@@ -1,0 +1,45 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 3rem;
+}
+
+.buttons .enreg {
+    padding: 10px 10px;
+    background: orangered;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+}
+
+.buttons .list {
+    padding: 10px 10px;
+    background: rgb(254, 255, 255);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+}
+
+.buttons .list a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 800;
+}
+
+.buttons .enreg a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+}
+
+.buttons .enreg {
+    border: 3px solid rgb(0, 217, 255);
+    box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.1), 5px 5px 15px rgba(255, 255, 255, 0.35);
+}
+
+.buttons .list {
+    border: 3px solid rgb(64, 174, 238);
+    box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.1), 5px 5px 15px rgba(255, 255, 255, 0.35);
+}

@@ -1,0 +1,67 @@
+.contentRes {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.resultsTable {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 18px;
+    margin-top: 2rem;
+}
+
+.resultsTable th,
+.resultsTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+
+}
+
+.resultsTable th {
+    background: #fff;
+    color: black;
+}
+
+.resultsTable tr {
+    box-shadow: 0 4px 6px rgba(19, 17, 17, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.resultsTable tr td {
+    padding: 10px 20px;
+}
+
+.date {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #08bad1;
+}
+
+.paris {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #fa5204;
+}
+
+.arriv {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: rgb(20, 211, 3);
+}
+
+.nb {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #f59505;
+}
+
+.taux {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: orangered;
+    font-weight: bold;
+}

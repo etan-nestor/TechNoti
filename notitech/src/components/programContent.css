@@ -1,0 +1,64 @@
+.program {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 1rem;
+}
+
+.day {
+    padding:10px;
+    text-align: center;
+    background: rgb(4, 3, 65);
+    box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.1), 1px 1px 5px rgba(255, 255, 255, 0.35);
+    color: #fff;
+}
+.day.jour {
+    animation: jour 1s infinite ease-in-out;
+}
+
+@keyframes jour {
+    0% {
+        background: rgb(94, 250, 3);
+    }
+
+    50% {
+        background: rgb(3, 69, 250);
+    }
+
+    100% {
+        background: rgb(3, 109, 47);
+    }
+}
+
+.programTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.programTable th, .programTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.programTable th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.np {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: rgb(228, 35, 1);
+    color: rgb(252, 251, 250);
+    font-weight: bold;
+}
+
+.pari {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
